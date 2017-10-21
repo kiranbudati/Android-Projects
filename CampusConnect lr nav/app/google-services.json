@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "625246307988",
+    "firebase_url": "https://campusconnect-156605.firebaseio.com",
+    "project_id": "campusconnect-156605",
+    "storage_bucket": "campusconnect-156605.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625246307988:android:ef9cc98aa521233d",
+        "android_client_info": {
+          "package_name": "amritasai.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625246307988-cjk4n28v4579ok4ooc3m9u0nb78n5nlq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvvYgOVW-dUCgbqQo8k-cWFaR6ZikiLNI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

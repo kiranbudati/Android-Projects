@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Visa World</string>
+    <string name="nationality">Nationality</string>
+    <string name="travel_to">Travel to</string>
+    <string name="click_here">Click here</string>
+    <string name="textview3"></string>
+    <string-array name="countries" >
+        <item>--SELECT COUNTRY--</item>
+        <item>ARGENTINA</item>
+        <item>AUSTRALIA</item>
+        <item>BANGLADESH</item>
+        <item>BRAZIL</item>
+        <item>FRANCE</item>
+        <item>CHINA</item>
+        <item>COLOMBIA</item>
+        <item>GERMANY</item>
+        <item>INDIA</item>
+        <item>INDONESIA</item>
+        <item>ITALY</item>
+        <item>JAPAN</item>
+        <item>MALAYSIA</item>
+        <item>NEWZEALAND</item>
+        <item>QATAR</item>
+        <item>RUSSIA</item>
+        <item>SAUDI ARABIA</item>
+        <item>SINGAPORE</item>
+        <item>SOUTH KOREA</item>
+        <item>SPAIN</item>
+        <item>SWEDEN</item>
+        <item>THAILAND</item>
+        <item>UAE</item>
+        <item>UK</item>
+        <item>US</item>
+
+    </string-array>
+    <string-array name="nationality">
+        <item>--SELECT COUNTRY--</item>
+        <item>AFGHAN</item>
+        <item>AUSTRALIA</item>
+        <item>BANGLADESH</item>
+        <item>BRAZIL</item>
+        <item>FRANCE</item>
+        <item>CHINA</item>
+        <item>COLOMBIA</item>
+        <item>GERMANY</item>
+        <item>INDIA</item>
+        <item>INDONESIA</item>
+        <item>ITALY</item>
+        <item>JAPAN</item>
+        <item>MALAYSIA</item>
+        <item>NEWZEALAND</item>
+        <item>QATAR</item>
+        <item>RUSSIA</item>
+        <item>SAUDI ARABIA</item>
+        <item>SINGAPORE</item>
+        <item>SOUTH KOREA</item>
+        <item>SPAIN</item>
+        <item>SWEDEN</item>
+        <item>THAILAND</item>
+        <item>UAE</item>
+        <item>UK</item>
+        <item>US</item>
+
+    </string-array>
+</resources>

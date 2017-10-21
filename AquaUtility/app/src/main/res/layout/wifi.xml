@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:theme="@+styles/AppTheme"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#F8F8FF"
+        android:id="@+id/rl"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <EditText android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:textColor="#FF192133"
+                android:textColorHint="#A0192133"
+                android:fontFamily="sans-serif-light"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+            <EditText android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textColor="#FF192133"
+                android:textColorHint="#A0192133"
+                android:fontFamily="sans-serif-light"
+                android:hint="Password"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select No Of Alarms"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#FF192133"
+                android:textSize="@dimen/activity_horizontal_margin"
+                android:textColorHint="#A0192133"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                />
+
+            <Spinner
+                android:id="@+id/no_of_alarms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/alarm_arrays"
+                android:prompt="@string/alarm_prompt"
+                android:hint="No Of Alarms"
+                style="@style/spinner_style"
+                android:popupBackground="#F8F8FF"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select No Of Fishes"
+                android:fontFamily="sans-serif-light"
+                android:textSize="@dimen/activity_horizontal_margin"
+                android:textColor="#FF192133"
+                android:textColorHint="#A0192133"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                />
+
+
+            <Spinner
+                android:id="@+id/no_of_fishes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/fish_arrays"
+                android:prompt="@string/fish_prompt"
+                style="@style/spinner_style"
+                android:popupBackground="#F8F8FF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/submit"
+                android:text="Submit"
+                style="@style/AppTheme.Button"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ipadd"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hotspot_username"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

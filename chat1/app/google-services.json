@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "59133972272",
+    "firebase_url": "https://orlamritasai.firebaseio.com",
+    "project_id": "orlamritasai",
+    "storage_bucket": "orlamritasai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59133972272:android:a54ba33edd7d2f6a",
+        "android_client_info": {
+          "package_name": "amritasai.orl.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59133972272-j7ev9t4qcpqnhbncv8pccbkbhe9ndrvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDatvwJvMkdyq_R_OHVCKrb48042CZE36E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
